@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #191819;
+}
+
+.header_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    width: 100%;
+    height: 10dvh;
+}
+
+.nav_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.para_navbar{
+    color:white;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.main_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80dvh;
+}
+.section_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} 
+.div_body{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.div_body_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+.div_body_search_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+}
+.div_body_search_field_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+.div_body_search_field_select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+.div_body_search_field_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+.div_body_card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.div_body_card_search_field_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+.edit_card_content_update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+.div_body_card_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 30%;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #252830;
+    border-radius: .3rem;
+}
+.div_body_card_content_edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #252830;
+    border-radius: .3rem;
+}
+.body_card_content_city{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para_card_content_city{
+    color:white;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.para_card_content_temperature{
+    color:white;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.body_card_content_weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.para_card_content_weather{
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.para_card_content_wind{
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+.div_body_card_button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 50%;
+    gap: 1rem;
+}
+
+.div_body_card_button_edit{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+.div_body_card_button_delete{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+}
+
+.footer_footnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    width: 100%;
+    height: 10dvh;
+}
+
+.div_footnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.para_footnav{
+    color:white;
+    font-weight: 500;
+    font-size: .8rem;
+}

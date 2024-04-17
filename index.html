@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header_navbar">
+      <nav class="nav_navbar">
+        <div class="div_navbar">
+          <p class="para_navbar">Forcasta</p>
+        </div>
+      </nav>
+    </header>
+    <main class="main_body">
+      <section class="section_body">
+        <div class="div_body">
+          <div class="div_body_search">
+            <div class="div_body_search_field">
+              <input
+                type="text"
+                class="div_body_search_field_input"
+                placeholder="Search for a city"
+              />
+              <select
+                type="text"
+                class="div_body_search_field_select"
+                placeholder="units"
+              >
+              <option value="metric">Celsius</option>
+                <option value="imperial">Fahrenheit</option>
+                <option value="standard">Kelvin</option>
+            </select>
+              <button class="div_body_search_field_button">Submit</button>
+            </div>
+          </div>
+          <div class="div_body_card">
+            <div class="div_body_card_content">
+              <div class="body_card_content_city">
+                <p class="para_card_content_city">Hyderabad</p>
+                <div class="body_card_content_temperature">
+                    <p class="para_card_content_temperature">295* F</p>
+                  </div>
+              </div>
+             
+              <div class="body_card_content_weather">
+                <p class="para_card_content_weather">Clouds</p>
+                <div class="body_card_content_wind">
+                    <p class="para_card_content_wind">0.62 Kmph</p>
+                  </div>
+              </div>
+             
+              <div class="div_body_card_button_container">
+                <button class="div_body_card_button_edit">
+                  <p class="para_card">Edit</p>
+                </button>
+                <button class="div_body_card_button_delete">
+                  <p class="para_card">Delete</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer_footnav">
+      <div class="div_footnav">
+        <p class="para_footnav">Copyright @ All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="https://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+    <script src="https://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+    <script src="https://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
